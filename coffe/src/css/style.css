@@ -700,6 +700,28 @@ header{
 	display:flex;
 }
 
+.slick-dots{
+    	margin:0;
+    	padding:0;
+    	list-style:none;
+    	display: flex;
+    	justify-content: center;
+ }
+
+ .slick-dots li button{
+    	font-size:0;
+    	margin:0 5px;
+    	padding:0;
+    	height:8px;
+    	width:8px;
+    	border-radius:50%;
+ 	border:1px solid black;
+ }
+
+ .slick-dots .slick-active button{
+    	background-color:black;
+ }
+
   
 
 
@@ -1060,28 +1082,6 @@ header{
 	.slick-track{
 		display:flex;
 	}
-
-	.slick-dots{
-    	margin:0;
-    	padding:0;
-    	list-style:none;
-    	display: flex;
-    	justify-content: center;
-    }
-
-    .slick-dots li button{
-    	font-size:0;
-    	margin:0 5px;
-    	padding:0;
-    	height:8px;
-    	width:8px;
-    	border-radius:50%;
-    	border:1px solid black;
-    }
-
-    .slick-dots .slick-active button{
-    	background-color:black;
-    }
 
     /*   footer   */
 
