@@ -50,8 +50,7 @@ $(document).ready(function(){
 
     ]
   });
+      let quertion = confirm(`Сегодня хорошая погода?`)
+      alert(quertion)
 });
-
-let quertion = confirm(`Сегодня хорошая погода?`)
-alert(quertion)
         
