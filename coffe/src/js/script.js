@@ -51,3 +51,7 @@ $(document).ready(function(){
     ]
   });
 });
+
+let question = confirm(`Сегодня хорошая погода?`)
+alert(question)
+        
